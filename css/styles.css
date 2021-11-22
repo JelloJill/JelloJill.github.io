@@ -37,13 +37,22 @@
 	background-color: #f9f3e7;
 }
 
-.letter h1, .letter h2 {
+.letter h1 {
 	font-family: LucyRose;
 	text-align: center;
 	color: #65160a;
 	border-bottom: dotted;
 	border-width: 2px;
 	border-color: #ff7493;
+}
+
+.letter h2 {
+	font-family: LucyRose;
+	text-align: center;
+	color: #ff7493;
+	border-bottom: dotted;
+	border-width: 2px;
+	border-color: #65160a;
 }
 
 .letter h3, .letter h4, .letter h5, .letter h6 {
@@ -57,6 +66,11 @@
 	color: #b8634b;
 	text-align: left;
 	font-family: Lato;
+}
+
+.fern {
+	background-color: #1fc2ac;
+	color: white;
 }
 
 /* References:
