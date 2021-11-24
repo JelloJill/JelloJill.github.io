@@ -1,11 +1,11 @@
 .graph {
 	background-color: #ffffff;
-	opacity: 0.8;
-	background-image:  linear-gradient(#ffbec9 1.7000000000000002px, transparent 1.7000000000000002px), linear-gradient(to right, #ffbec9 1.7000000000000002px, #ffffff 1.7000000000000002px);
+	background-image:  linear-gradient(#fec9cf 1.7px, transparent 1.7px), linear-gradient(to right, #fec9cf 1.7px, #ffffff 1.7px);
 	background-size: 34px 34px;
-	color: #592939;
+	color: #79515c;
 
 	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 }
 
 .graph h1, .graph h2, .graph h3, .graph h4, .graph h5, .graph h6 {
