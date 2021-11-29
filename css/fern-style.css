@@ -1,0 +1,16 @@
+.fern {
+	background-color: #0ad0bb;
+	color: white;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.fern h1, .fern h2, .fern h3, .fern h4, .fern h5, .fern h6 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.code {
+	background-color: white;
+	color: #fe5474;
+}

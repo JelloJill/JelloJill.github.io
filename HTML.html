@@ -14,8 +14,8 @@
 
 	<!-- Local CSS files -->
 	<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/letter-style.css">
 	<link rel="stylesheet" href="./css/graph-style.css">
+	<link rel="stylesheet" href="./css/fern-style.css">
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="./Assets/SVG/Rose-1.png">
@@ -46,75 +46,83 @@
 	</nav>
 
 
-	<div class="container">
-		<div class="m-1">
-			<br>
+	<section class="fullpage graph-green">
+		<div class="container">
+			<br><br><br>
+			<i class="bi bi-code" style="font-size: 40px;"></i>
+			<br><br><br>
 			<h1>HTML Journey</h1>
 			<p>
 				Based on what I learned in W3Schools HTML while using Bootstrap.<br>
 				I made this in such a way that I can visually see everything I tried in code.
 			</p>
-			<hr>
+			<br><br>
+			<i class="bi bi-code-slash" style="font-size: 40px;"></i>
 		</div>
+	</section>
 
-		<div class="row">
+	<div class="fern">
+		<div class="container"> <br><br>
 			<h2>Header types</h2>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;h1&gt;Header 1&lt;/h1&gt;
 &lt;h2&gt;Header 2&lt;/h2&gt;
 &lt;h3&gt;Header 3&lt;/h3&gt;
 &lt;h4&gt;Header 4&lt;/h4&gt;
 &lt;h5&gt;Header 5&lt;/h5&gt;
 &lt;h6&gt;Header 6&lt;/h6&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<h1>Header 1</h1>
-				<h2>Header 2</h2>
-				<h3>Header 3</h3>
-				<h4>Header 4</h4>
-				<h5>Header 5</h5>
-				<h6>Header 6</h6>
-			</div>
+					</div></div>
+					<div class="col-6">
+						<h1>Header 1</h1>
+						<h2>Header 2</h2>
+						<h3>Header 3</h3>
+						<h4>Header 4</h4>
+						<h5>Header 5</h5>
+						<h6>Header 6</h6>
+					</div>
+				</div>
 		</div>
 
-
-		<div class="row">
+		<div class="container">
 			<h2>Inserting an image</h2>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;img src="Assets/Art/Panda-Fall.png" alt="Fall" width=200 height=200&gt;&lt;br&gt;
 &lt;img src="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" alt="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" height=300&gt;</code></pre>
-			</div>
-			</div>
-			<div class="col-6">
-				<img src="Assets/Art/Panda-Fall.png" alt="Fall" width=200 height=200><br>
-				<img src="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" alt="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" height=300>
+					</div>
+				</div>
+				<div class="col-6">
+					<img src="Assets/Art/Panda-Fall.png" alt="Fall" width=200 height=200><br>
+					<img src="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" alt="https://wallup.net/wp-content/uploads/2018/10/07/163028-kitty.jpg" height=300>
+				</div>
 			</div>
 		</div>
 
-
-		<div class="row">
+		<div class="container">
 			<h2>HTML text</h2>
-			<h3>Paragraph styling</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Paragraph styling</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;!-- Press Ctrl+A to see the secret message ;) --&gt;
-&lt;p title="Woooh~ Spooky" style='color: white; font-family: "Comic Sans MS"; font-size: 420%; text-align: right;'&gt;
+&lt;p title="Woooh~ Spooky" style='color: #0ad0bb; font-family: "Comic Sans MS"; font-size: 420%; text-align: right;'&gt;
 You can't see me :)
 &lt;/p&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p title="Woooh~ Spooky" style='color: white; font-family: "Comic Sans MS"; font-size: 420%; text-align: right;'>
-					You can't see me :)
-				</p>
+				</div></div>
+				<div class="col-6">
+					<p title="Woooh~ Spooky" style='color: #0ad0bb; font-family: "Comic Sans MS"; font-size: 420%; text-align: right;'>
+						You can't see me :)
+					</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
-			<h3>Tooltip</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Tooltip</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p title="Inspirational quote or whatever. HAHAHAHAHA"&gt;
 "They say that a person must learn to read between the lines to see beyond what is explicitly written.&lt;br&gt;
 But sometimes spaces are just spaces."
@@ -122,22 +130,22 @@ But sometimes spaces are just spaces."
 &lt;pre title="Where's the lie?"&gt;
 - From a person who mostly reads fanfiction
 &lt;/pre&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p title="Inspirational quote or whatever. HAHAHAHAHA">
-					"They say that a person must learn to read between the lines to see beyond what is explicitly written.<br>
-					But sometimes spaces are just spaces."
-				</p>
-				<pre title="Where's the lie?">
-					- From a person who mostly reads fanfiction
-				</pre>
+				</div></div>
+				<div class="col-6">
+					<p title="Inspirational quote or whatever. HAHAHAHAHA">
+						"They say that a person must learn to read between the lines to see beyond what is explicitly written.<br>
+						But sometimes spaces are just spaces."
+					</p>
+					<pre title="Where's the lie?">
+						- From a person who mostly reads fanfiction
+					</pre>
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
-			<h3>Text format</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Text format</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p title="All text are equal."&gt;
 Text comes in different format. They can be
 &lt;b&gt;bold, &lt;/b&gt;
@@ -151,97 +159,97 @@ Text comes in different format. They can be
 &lt;sub&gt;subscript,&lt;/sub&gt; and
 &lt;sup&gt;superscript.&lt;/sup&gt;
 &lt;/p&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p title="All text are equal.">
-					Text comes in different format. They can be
-					<b>bold, </b>
-					<strong>important, </strong>
-					<i>italic, </i>
-					<em>emphasized, </em>
-					<mark>marked,</mark>
-					<small>small,</small>
-					<del>deleted,</del>
-					<ins>inserted,</ins>
-					<sub>subscript,</sub> and
-					<sup>superscript.</sup>
-				</p>
+				</div></div>
+				<div class="col-6">
+					<p title="All text are equal.">
+						Text comes in different format. They can be
+						<b>bold, </b>
+						<strong>important, </strong>
+						<i>italic, </i>
+						<em>emphasized, </em>
+						<mark>marked,</mark>
+						<small>small,</small>
+						<del>deleted,</del>
+						<ins>inserted,</ins>
+						<sub>subscript,</sub> and
+						<sup>superscript.</sup>
+					</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
-			<h3>Blockquote</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Blockquote</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p&gt;Sherlock quote:&lt;/p&gt;
 &lt;blockquote cite="https://quotecatalog.com/quote/steven-moffat-brainy-is-the-n-x1m2DL7"&gt;
 “Brainy is the new sexy.”
 — Irene Adler, Sherlock, Sherlock Season 2: A Scandal in Belgravia
 &lt;/blockquote&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p>Sherlock quote:</p>
-				<blockquote cite="https://quotecatalog.com/quote/steven-moffat-brainy-is-the-n-x1m2DL7">
-					“Brainy is the new sexy.”
-					— Irene Adler, Sherlock, Sherlock Season 2: A Scandal in Belgravia
-				</blockquote>
+				</div></div>
+				<div class="col-6">
+					<p>Sherlock quote:</p>
+					<blockquote cite="https://quotecatalog.com/quote/steven-moffat-brainy-is-the-n-x1m2DL7">
+						“Brainy is the new sexy.”
+						— Irene Adler, Sherlock, Sherlock Season 2: A Scandal in Belgravia
+					</blockquote>
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
-			<h3>Automatic quotation marks and Abbreviation</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Automatic quotation marks and Abbreviation</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p&gt;Automatic &lt;q&gt;quotation marks&lt;/q&gt; and &lt;abbr title="abbreviation"&gt;abbr&lt;/abbr&gt;.&lt;/p&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p>Automatic <q>quotation marks</q> and <abbr title="abbreviation">abbr</abbr>.</p>
+				</div></div>
+				<div class="col-6">
+					<p>Automatic <q>quotation marks</q> and <abbr title="abbreviation">abbr</abbr>.</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
-			<h3>Address</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+			<div class="row m-1">
+				<h3>Address</h3>
+				<div class="col-6"><div class="container border code">
+					<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;address&gt;
 Written by Angelique Rafael &lt;br&gt;
 &lt;a href="https://jellojill.github.io/"&gt;GitHub&lt;/a&gt;
 &lt;/address&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<address>
-					Written by Angelique Rafael <br>
-					<a href="https://jellojill.github.io/">GitHub</a>
-				</address>
-			</div>
-		</div>
+					</div></div>
+					<div class="col-6">
+						<address>
+							Written by Angelique Rafael <br>
+							<a href="https://jellojill.github.io/">GitHub</a>
+						</address>
+					</div>
+				</div>
 
-		<div class="row">
-			<h3>Citation</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+				<div class="row m-1">
+					<h3>Citation</h3>
+					<div class="col-6"><div class="container border code">
+						<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p&gt;Remember to always &lt;cite&gt;cite&lt;/cite&gt; your references!&lt;/p&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p>Remember to always <cite>cite</cite> your references!</p>
-			</div>
-		</div>
+					</div></div>
+					<div class="col-6">
+						<p>Remember to always <cite>cite</cite> your references!</p>
+					</div>
+				</div>
 
-		<div class="row">
-			<h3>Bi-directional Override</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+				<div class="row m-1">
+					<h3>Bi-directional Override</h3>
+					<div class="col-6"><div class="container border code">
+						<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;bdo dir="rtl"&gt;Left & Right&lt;/bdo&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<bdo dir="rtl">Left & Right</bdo>
-			</div>
-		</div>
+					</div></div>
+					<div class="col-6">
+						<bdo dir="rtl">Left & Right</bdo>
+					</div>
+				</div>
 
-		<div class="row">
-			<h3>Color</h3>
-			<div class="col-6"><div class="container border">
-				<pre class="chroma" tabindex="0"><code class="language-html">
+				<div class="row m-1">
+					<h3>Color</h3>
+					<div class="col-6"><div class="container border code">
+						<pre class="chroma" tabindex="0"><code class="language-html">
 &lt;p style="color: LightCoral"&gt;
 Hi, I love the way that I feel when you put your arms over me
 &lt;/p&gt;
@@ -259,30 +267,32 @@ Only me
 'Cause every time I think about it, can't stop thinkin' 'bout it &lt;br&gt;
 That you are all I need (You are all I need)
 &lt;/p&gt;</code></pre>
-			</div></div>
-			<div class="col-6">
-				<p style="color: LightCoral">
-					Hi, I love the way that I feel when you put your arms over me
-				</p>
+				</div></div>
+				<div class="col-6">
+					<p style="color: LightCoral">
+						Hi, I love the way that I feel when you put your arms over me
+					</p>
 
-				<p style="background-color: rgba(255, 99, 71, 0.5)">
-					(There must be something I could say to make you stay, baby)
-				</p>
+					<p style="background-color: rgba(255, 99, 71, 0.5)">
+						(There must be something I could say to make you stay, baby)
+					</p>
 
-				<p style="border:2px solid #ff6347">
-					Oh, hi (Hello), I love the way that you get in the groove when you walk with me <br>
-					Only me
-				</p>
+					<p style="border:2px solid #ff6347">
+						Oh, hi (Hello), I love the way that you get in the groove when you walk with me <br>
+						Only me
+					</p>
 
-				<p style="background-color: hsl(0, 88%, 68%); color: hsla(0, 100%, 100%, 0.8)">
-					'Cause every time I think about it, can't stop thinkin' 'bout it <br>
-					That you are all I need (You are all I need)
-				</p>
+					<p style="background-color: hsl(0, 88%, 68%); color: hsla(0, 100%, 100%, 0.8)">
+						'Cause every time I think about it, can't stop thinkin' 'bout it <br>
+						That you are all I need (You are all I need)
+					</p>
+				</div>
 			</div>
-		</div>
+		</div> <br><br>
+	</div>
 
-
-		<div class="m-1">
+	<section>
+		<div class="container">
 			<br><br>
 			<h3>References:</h3><hr>
 			<p>
@@ -299,7 +309,13 @@ That you are all I need (You are all I need)
 			</ul>
 		</div>
 
-	</div>
+		<div class="w-100" style="background-color: white;">
+			<div class="container">
+				<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+					<p>© 2021 Angelique Rafael. All rights reserved.</p>
+				</footer>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
-<!--  -->
